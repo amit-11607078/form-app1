@@ -76,7 +76,7 @@ function NameForm() {
       />
 
       <br />
-      <label>Date:</label>
+      <label>Date of Birth:</label>
       <br />
 
       <input
@@ -87,7 +87,7 @@ function NameForm() {
           setDate(e.target.value);
         }}
       ></input>
-      {isError && <span style={{ color: "red" }}>{"Wrong DOF"}</span>}
+      {isError && <span style={{ color: "red" }}>{"Wrong DOB"}</span>}
       <br />
       <label>Email:</label>
       <br />
