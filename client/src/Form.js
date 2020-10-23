@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 
 function NameForm() {
   const [username, setUsername] = useState("");
-  const [date, setDate] = useState("");
+  const [date, setDate] = useState("1");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
